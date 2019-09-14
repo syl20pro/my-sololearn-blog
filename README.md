@@ -8,4 +8,4 @@ L'exercice consiste en la création d'un blog contenant plusieurs parties :
 	- Formulaire
 	- Insertion d'une vidéo
 
-SoloLearn est une plateforme d'apprentissage de différents languages de programmation. '
+SoloLearn est une plateforme d'apprentissage de différents langages de programmation.
