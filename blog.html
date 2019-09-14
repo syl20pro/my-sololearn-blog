@@ -4,109 +4,134 @@
  
 <html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <title>Mon blog SoloLearn</title>
     <!-- Récupèrer une police similaire a Microsoft Corbel sur Google Font-->
     <link href="https://fonts.googleapis.com/css?family=Quattrocento"
           rel="StyleSheet" />
 </head>
 <body>
-    <div class="section">
-        <!--Présentation-->
-        <h1><span>A propos</span></h1>
-        <p>
-            Bonjour ! Je suis <strong>Sylvain</strong> développeur python junior. Cette page constitue un exercice pratique réalisé grâce à l'application <a href="https://sololearn.com"><i>SoloLearn</i></a>. J'y apprends les fondamentaux de <strong>HTML, CSS, JavaScript </strong> et la programmation avec <strong><ins>Python</ins></strong>, PHP, SQL. Je vous invite à me rejoindre et apprendre le code en vous amusant.
-        </p>
-        <p class="quote">Chaque jour, je m'efforce de faire mieux qu'hier</p>
-    </div>
-    <!--Fin de la presentation-->
+    <header>
+        <h1>SoloLearn Blog de Sylvain Gemieux</h1>
+    </header>
 
-    <!--Hardskills-->
-    <h1><span>Mes compétences métiers</span></h1>
-    <ul>
-        <li>Développement web WordPress</li>
-        <li>Social Media Management</li>
-        <li>Marketing digital</li>
-        <li>Gestion de projet</li>
-    </ul>
-    <!--Fin de mes compétences métiers-->
+    <nav>
+        <ul>
+            <li><a href="#presentation">Présentation</a></li>
+            <li><a href="#competences">Compétences &amp; personnalité</a></li>
+            <li><a href="#agenda">Agenda d'apprenant</a></li>
+            <li><a href="#formulaire">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div id="presentation" class="section">
+            <!--Présentation-->
+            <h1><span>Présentation</span></h1>
+            <p>
+                Bonjour ! Je suis <strong>Sylvain</strong>, consultant digital et développeur python junior. Cette page constitue la mise en pratique de mon apprentissage réalisé grâce à l'application <a href="https://sololearn.com"><i>SoloLearn</i></a>. J'y apprends les fondamentaux de <strong>HTML, CSS, JavaScript </strong> et les langages de programmation <strong><ins>Python</ins></strong>, PHP, SQL. Je vous invite à me rejoindre et apprendre à coder ensemble.
+            </p>
+            <p class="quote">Demain s'invente aujourd'hui alors vivement après-demain ;)</p>
+        </div>
+        <!--Fin de la presentation-->
+    </section>
 
-    <!--softskills-->
-    <h1><span>Ma personnalité</span></h1>
-    <ul>
-        <li>Rigoureux</li>
-        <li>Créatif</li>
-        <li>Ouvert d'esprit</li>
-        <li>Sympathique</li>
-        <li>Humble</li>
-    </ul>
-    <!--Fin de mes compétences comportementales-->
+    <aside>
+        <div id="competences">
+            <!--Hardskills-->
+            <h1><span>Mes compétences métiers</span></h1>
+            <ul>
+                <li>Développement web WordPress</li>
+                <li>Social Media Management</li>
+                <li>Marketing digital</li>
+                <li>Gestion de projet</li>
+            </ul>
+            <!--Fin de mes compétences métiers-->
+            <!--Liste d'apprentissage avec barre de progression-->
+            <h1><span>Progression d'apprentissage</span></h1>
+            <ul>
+                <li>HTML <progress min="0" max="100" value="65"></progress></li>
+                <li>CSS<progress min="0" max="100" value="35"></progress></li>
+                <li>Python<progress min="0" max="100" value="25"></progress></li>
+                <li>PHP<progress min="0" max="100" value="5"></progress></li>
+                <li>SQL<progress min="0" max="100" value="0"></progress></li>
+            </ul>
+            <!--Fin de la liste d'apprentissage-->
+        </div>
+
+        <!--softskills-->
+        <h1><span>Ma personnalité</span></h1>
+        <ul>
+            <li>Rigoureux</li>
+            <li>Créatif</li>
+            <li>Ouvert d'esprit</li>
+            <li>Sympathique</li>
+            <li>Humble</li>
+        </ul>
+        <!--Fin de mes compétences comportementales-->
+    </aside>
+
 
     <!--Agenda d'apprenant-->
-    <h1>Mon emploi du temps d'apprenant</h1>
-    <table>
-        <tr>
-            <th>Jour</th>
-            <th>Lundi</th>
-            <th>Mardi</th>
-            <th>Mercredi</th>
-            <th>Jeudi</th>
-            <th>Vendredi</th>
-        </tr>
+    <div id="agenda" class="section">
+        <h1>Mon emploi du temps d'apprenant</h1>
+        <table>
+            <tr>
+                <th>Jour</th>
+                <th>Lundi</th>
+                <th>Mardi</th>
+                <th>Mercredi</th>
+                <th>Jeudi</th>
+                <th>Vendredi</th>
+            </tr>
 
-        <tr>
-            <td>00:00 - 08:00</td>
-            <td colspan="5">Sommeil</td>
-        </tr>
+            <tr>
+                <td>00:00 - 08:00</td>
+                <td colspan="5">Sommeil</td>
+            </tr>
 
-        <tr>
-            <td>8:00 - 12:00</td>
-            <td colspan="5">Travail salarié</td>
-        </tr>
+            <tr>
+                <td>9:30 - 12:30</td>
+                <td colspan="5">Salarié</td>
+            </tr>
 
-        <tr>
-            <td>12:00 - 13:00</td>
-            <td colspan="5">Pause déjeuner</td>
-        </tr>
+            <tr>
+                <td>12:30 - 13:00</td>
+                <td colspan="5">Pause déjeuner</td>
+            </tr>
 
-        <tr>
-            <td>13:00 - 14:00</td>
-            <td class="selected" colspan="5">Formation rapide</td>
-        </tr>
+            <tr>
+                <td>13:00 - 14:00</td>
+                <td class="selected" colspan="5">Formation rapide</td>
+            </tr>
 
-        <tr>
-            <td>14:00 - 18:00</td>
-            <td colspan="5">Travail salarié</td>
-        </tr>
+            <tr>
+                <td>14:00 - 18:00</td>
+                <td colspan="5">Salarié</td>
+            </tr>
 
-        <tr>
-            <td>18:00 - 20:30</td>
-            <td colspan="5">En famille</td>
-        </tr>
+            <tr>
+                <td>20:30 - 21:30</td>
+                <td colspan="5">Freelance</td>
+            </tr>
+            <tr>
+                <td>21:30 - 22:30</td>
+                <td class="selected" colspan="5">Formation et Code</td>
+            </tr>
 
-        <tr>
-            <td>20:30 - 21:30</td>
-            <td colspan="5">Freelance</td>
-        </tr>
-        <tr>
-            <td>21:30 - 22:30</td>
-            <td class="selected" colspan="5">Formation et Code</td>
-        </tr>
-
-        <tr>
-            <td>22:30 - 00:00</td>
-            <td colspan="5">Sommeil</td>
-        </tr>
-    </table>
+            <tr>
+                <td>22:30 - 00:00</td>
+                <td colspan="5">Sommeil</td>
+            </tr>
+        </table>
+    </div>
     <!--Fin de mon emploi du temps-->
-    
     <!--Formulaire de contact-->
-    <div class="form">
+    <div id="formulaire" class="form">
         <h1><span>Contactez-moi</span></h1>
         <form>
-            <input name="nom" type="text" /><br />
-            <input name="email" type="email" /><br />
-            <textarea name="message"></textarea>
+            <label>Votre nom</label><input name="nom" type="text" placeholder="Sylvain Gemieux" /><br />
+            <label>Email</label><input name="email" type="email" placeholder="hello@sylvaingemieux.com" /><br />
+            <label>Votre message</label><textarea name="message" placeholder="Superbe présentation, j'ai un projet à vous proposer"></textarea>
             <input type="submit" value="Envoyer" class="submit" />
         </form>
     </div>
@@ -118,6 +143,23 @@
         <iframe height="150" width="300" src="https://www.youtube.com/embed/Q6_5InVJZ88" allowfullscreen frameborder="0"></iframe>
     </div>
     <!--Fin de l'encart vidéo Youtube-->
+
+    <footer>
+        <!--Liens vers mes profils sur les réseaux sociaux-->
+        <h1><a href="https://sylvaingemieux.com">Sylvain Gemieux - Consultant Digital Freelance</a></h1>
+        <h2>Suivez-moi sur les réseaux sociaux</h2>
+
+        <tr>
+            <td><a href="https://twitter.com/syl20pro">Twitter</a></td>
+            <td><a href="https://www.linkedin.com/in/sylvain-gemieux/">LinkedIn</a></td>
+            <td><a href="https://www.instagram.com/syl20pro/">Instagram</a></td>
+            <td><a href="https://www.facebook.com/Syl20Pro/">Facebook Page</a></td>
+            <td><a href="https://github.com/syl20pro">GitHub</a></td>
+            <td><a href="https://www.sololearn.com/Profile/15482189">Sololearn</a></td>
+            <td><a href="https://medium.com/@syl20pro">Medium</a></td>
+        </tr>
+        <!--Fin des liens vers les réseaux sociaux-->
+    </footer>
 
 </body>
 </html>
