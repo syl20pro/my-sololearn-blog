@@ -1,13 +1,13 @@
 # my-sololearn-blog
 
-Présentation succinte de mon profil personnel
+PrÃ©sentation succinte de mon profil personnel de dÃ©veloppeur web.
 
 Mise en pratique de mon apprentissage des fondamentaux HTML avec SoloLearn
 
-L'exercice consiste en la création d'un blog contenant plusieurs parties :
+L'exercice consiste en la crÃ©ation d'un blog contenant plusieurs parties :
 	- Texte citation
 	- Tableau
 	- Formulaire
-	- Insertion d'une vidéo
+	- Insertion d'une vidÃ©o
 
-SoloLearn est une plateforme d'apprentissage de développement web et de différents langages de programmation.
+SoloLearn est une plateforme d'apprentissage de dÃ©veloppement web et de diffÃ©rents langages de programmation.
