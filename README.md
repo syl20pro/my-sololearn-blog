@@ -2,7 +2,7 @@
 
 Présentation succinte de mon profil personnel de développeur web.
 
-Mise en pratique de mon apprentissage des fondamentaux HTML avec SoloLearn
+Mise en pratique de mon apprentissage des fondamentaux HTML avec SoloLearn et le cours sur Git & GitHub d'OpenClassrooms.
 
 L'exercice consiste en la création d'un blog contenant plusieurs parties :
 	- Texte citation
