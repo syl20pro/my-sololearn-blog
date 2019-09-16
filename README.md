@@ -7,7 +7,7 @@ Cette mise en pratique s'organise autour de la certification des fondamentaux HT
 	<li>Création d'une page web</li>
 	<li>Gérez votre code avec Git et GitHub</li>
 	<li>Utilisez git et GitHub dans vos projets de développement</li>
-<ul>
+</ul>
 
 L'exercice consiste en la création d'un blog contenant plusieurs parties :
 <ul>
