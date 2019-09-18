@@ -27,3 +27,14 @@ SoloLearn est une plateforme d'apprentissage de développement web et de différ
 
 <h3>OpenClassrooms</h3>
 OpenClassrooms est une plateforme d'apprentissage en ligne pour s'autoformer sur différents domaines et se former à différents métiers grâce à des parcours certifiants, diplômants et en réalisant des projets concrets.
+
+<h2>Contributions</h2>
+S'agissant de la mise en pratique d'un apprentissage personnel, il ne peut pas y avoir de modifications de la branche master
+Néanmoins, si vous souhaitez contribuer par une proposition d'amélioration ou proposez une nouvel fonctionnalité, je vous invite à suivre les indications ci-dessous :
+<ol>
+	<li>Forker le projet</li>
+	<li>Créer une branche de la fonctionnalité proposée <code>git checkout -b nouvel_fonction</code></li>
+	<li>Commiter vos changements <code>git commit -am 'Nouvel fonction'</code></li>
+	<li>Pusher la branche <code>git push origin nouvel_fonction</code></li>
+	<li>Créer un nouvel <code>pull request</code></li>
+</ol>
